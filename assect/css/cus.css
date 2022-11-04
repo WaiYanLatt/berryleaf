@@ -92,6 +92,9 @@
 .thirdcard{
     height: 230px;
 }
+.wo{
+    width: 50%;
+}
 .carousel-control-prev{
     margin-left: -3%;
     margin-top: 220px;
@@ -149,6 +152,9 @@
         margin-right: 100px;
     }
     .fifth{
-        height: 180vh;
+        height: 160vh;
+    }
+    .wo{
+        width: 25%;
     }
 }
