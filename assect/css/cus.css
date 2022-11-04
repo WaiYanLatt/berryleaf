@@ -134,7 +134,7 @@
         height: 60vh;
     }
     .hg3{
-        height: 130vh;
+        height: 150vh;
     }
     .hgonp{
         height: 150vh;
@@ -144,5 +144,11 @@
     }
     .mt{
         margin-top: 30px;
+    }
+    .me--1{
+        margin-right: 100px;
+    }
+    .fifth{
+        height: 180vh;
     }
 }
