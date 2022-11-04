@@ -69,6 +69,9 @@
 .hg4{
     height: 60vh;
 }
+.hg7{
+    height: 250vh;
+}
 .h{
     height: 50px;
     width: 50px;
@@ -92,6 +95,10 @@
 .thirdcard{
     height: 230px;
 }
+.fouthcard{
+    height: 390px;
+    border: 1px solid #34D399;
+}
 .wo{
     width: 50%;
 }
@@ -105,6 +112,52 @@
 }
 .carousel-control-next{
     margin-right: -3%;
+    margin-top: 220px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.carousel-control-prev1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    margin-left: -2%;
+    margin-top: 220px;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.carousel-control-next1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    margin-left: 98%;
     margin-top: 220px;
     background-color: black;
     height: 50px;
@@ -219,5 +272,16 @@
     }
     .wo{
         width: 35%;
+    }
+    .menu-icon{
+        transform: scale(0.8);
+    }
+    .carousel-control-prev1{
+        margin-top: 50px;
+        margin-left: -6%;
+    }
+    .carousel-control-next1{
+        margin-top: 50px;
+        margin-left: 91%;
     }
 }
