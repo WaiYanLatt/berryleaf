@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="./fontawesome-free-6.1.1-web/css/all.min.css"
     />
+    <link rel="stylesheet" href="./animate.min.css" />
     <link rel="stylesheet" href="./assect/css/cus.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,6 +22,7 @@
   </head>
 
   <body>
+
     <!-- Navbar -->
     <ul class="nav bg1 home d-no">
       <li class="nav-item m-home mt-lg-3">
@@ -35,13 +37,13 @@
       <p class="m mt-lg-4 cl1">Sign in</p>
     </ul>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg animate__animated">
       <div class="container">
         <a class="navbar-brand text-white fw-bold" href="#"
           ><img src="./assect/img/bl.svg" class="logo" alt="" /> BerryLeaf</a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0 o-n"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -49,26 +51,30 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 home">
             <li class="nav-item ms-lg-5">
               <a
-                class="nav-link fw-bold active ms-lg-5"
+                class="nav-link fw-bold active-link ms-lg-5"
                 aria-current="page"
                 href="#"
                 >Home</a
               >
             </li>
             <li class="nav-item ms-lg-5">
-              <a class="nav-link fw-bold" href="#">Resources</a>
+              <a class="nav-link fw-bold" href="#">React</a>
             </li>
             <li class="nav-item ms-lg-5">
-              <a class="nav-link fw-bold" href="#">Company</a>
+              <a class="nav-link fw-bold" href="#">Community</a>
             </li>
             <li class="nav-item ms-lg-5">
-              <a class="nav-link fw-bold" href="#">Pricing</a>
+              <a class="nav-link fw-bold" href="#">Certificate</a>
             </li>
           </ul>
           <button
@@ -114,7 +120,7 @@
 
     <div class="container-fluid bg1 hg1 hgonp">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12" id="about">
           <div class="text-center">
             <h4 class="cl2 mt-lg-5 mt-5 fw-bold bottom">PLAYGROUND</h4>
             <h1 class="cl2 mt-lg-5 mt-5 fw-bold bottom">
@@ -488,7 +494,9 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center">
-            <h6 class="text-white fw-bold mt-lg-5 mt-5 bottom">OTHER SERVICES</h6>
+            <h6 class="text-white fw-bold mt-lg-5 mt-5 bottom">
+              OTHER SERVICES
+            </h6>
             <h1 class="text-white fw-bold mt-lg-5 mt-5 bottom">
               Everything Around Development
             </h1>
@@ -500,7 +508,7 @@
           </div>
         </div>
       </div>
-      <div class="container mt-lg-5"> 
+      <div class="container mt-lg-5">
         <div class="row justify-content-between">
           <div class="col-lg-4">
             <div class="card bg1 rounded-4 w-100 thirdcard mt-lg-0 mt-3 bottom">
@@ -841,18 +849,19 @@
 
     <script src="./bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./jquery/dist/jquery.min.js"></script>
+    <script src="./imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.js"></script>
     <script src="./scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="./assect/js/cus.js"></script>
     <script>
-      ScrollReveal().reveal('.bottom',{
-        origin: 'bottom',
-        distance: '50px',
+      ScrollReveal().reveal(".bottom", {
+        origin: "bottom",
+        distance: "50px",
         duration: 2000,
         reset: true,
         interval: 200,
-        scale: 0.80,
+        scale: 0.8,
         viewFactor: 0.2,
-    });  
+      });
     </script>
   </body>
 </html>
