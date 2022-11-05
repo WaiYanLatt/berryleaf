@@ -75,9 +75,24 @@
 .hg7{
     height: 220vh;
 }
+.hg9{
+    height: 80vh;
+}
 .h{
     height: 50px;
     width: 50px;
+}
+.m--{
+    margin-left: 30rem;
+}
+.m---{
+    margin-left: 139px;
+}
+.height{
+    margin-left: 620px;
+}
+.height1{
+    margin-left: 550px;
 }
 .mt{
     margin-top: 130px;
@@ -234,7 +249,9 @@
 .o-n:focus {
     box-shadow: none;
 }
-
+.form-control{
+    border: 1px solid #141D2B;
+}
 @media screen and (max-width:460px) {
     .d-no{
         display: none;
@@ -297,5 +314,17 @@
     .carousel-control-next1{
         margin-top: 35px;
         margin-left: 91%;
+    }
+    .m--{
+        margin-left: 0rem;
+    }
+    .height{
+        margin-left: 1rem;
+    }
+    .height1{
+        margin-left: 1rem;
+    }
+    .m---{
+        margin-left: 40px;
     }
 }
