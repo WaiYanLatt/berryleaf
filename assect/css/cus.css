@@ -359,6 +359,12 @@
         margin-top: 35px;
         margin-left: 91%;
     }
+    .carousel-control-prev{
+        margin-top: 500px;
+    }
+    .carousel-control-next{
+        margin-top: 500px;
+    }
     .m--{
         margin-left: 0rem;
     }
