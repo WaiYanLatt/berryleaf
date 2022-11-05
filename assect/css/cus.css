@@ -98,6 +98,10 @@
 .thirdcard{
     height: 230px;
 }
+.thirdcard1{
+    height: 100%;
+    width: 310px;
+}
 .fouthcard{
     height: 330px;
     border: 1px solid #34D399;
@@ -108,19 +112,19 @@
 .carousel-control-prev{
     margin-left: -3%;
     margin-top: 220px;
-    background-color: black;
+    background-color: gray;
     height: 50px;
     width: 50px;
-    border: 3px solid #34D399;
+    border: 3px solid black;
     border-radius: 50%;
 }
 .carousel-control-next{
     margin-right: -3%;
     margin-top: 220px;
-    background-color: black;
+    background-color: gray;
     height: 50px;
     width: 50px;
-    border: 3px solid #34D399;
+    border: 3px solid black;
     border-radius: 50%;
 }
 .carousel-control-prev1{
@@ -141,10 +145,10 @@
     transition: opacity .15s ease;
     margin-left: -2%;
     margin-top: 220px;
-    background-color: black;
+    background-color: gray;
     height: 50px;
     width: 50px;
-    border: 3px solid #34D399;
+    border: 3px solid black;
     border-radius: 50%;
 }
 .carousel-control-next1{
@@ -165,10 +169,10 @@
     transition: opacity .15s ease;
     margin-left: 98%;
     margin-top: 220px;
-    background-color: black;
+    background-color: gray;
     height: 50px;
     width: 50px;
-    border: 3px solid #34D399;
+    border: 3px solid black;
     border-radius: 50%;
 }
 .active-link {
