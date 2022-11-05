@@ -78,6 +78,9 @@
 .hg9{
     height: 80vh;
 }
+.hg10{
+    height: 75vh;
+}
 .h{
     height: 50px;
     width: 50px;
@@ -388,5 +391,8 @@
     }
     .hg10{
         height: 100vh;
+    }
+    .ms----{
+        margin-left: 36px;
     }
 }
