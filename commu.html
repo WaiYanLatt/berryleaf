@@ -22,6 +22,12 @@
   </head>
 
   <body>
+
+
+    <div class="loading">
+      <span class="loader"></span>
+     </div>
+
     <!-- Navbar -->
     <ul class="nav bg1 home d-no">
       <li class="nav-item m-home mt-lg-3">
@@ -250,6 +256,11 @@
     <script src="./scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="./assect/js/cus.js"></script>
     <script>
+      
+       window.addEventListener('load', () => {
+       document.querySelector('.loading').style.display = 'none';
+       })
+
       ScrollReveal().reveal(".bottom", {
         origin: "bottom",
         distance: "50px",
