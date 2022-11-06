@@ -316,6 +316,9 @@
         width: 30px;
         height: 30px;
     }
+    .logo1{
+        width: 35px;
+    }
     .w-home{
         width: 200px!important;
     }
@@ -398,6 +401,6 @@
         height: 100vh;
     }
     .ms----{
-        margin-left: 36px;
+        margin-left: 13px;
     }
 }
