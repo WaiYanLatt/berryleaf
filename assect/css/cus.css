@@ -377,7 +377,7 @@
     }
     .carousel-control-next{
         margin-top: 500px;
-        margin-right: 10px;
+        margin-right: -1px;
     }
     .m--{
         margin-left: 0rem;
