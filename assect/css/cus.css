@@ -373,11 +373,11 @@
     }
     .carousel-control-prev{
         margin-top: 500px;
-        margin-left: 270px;
+        margin-left: 250px;
     }
     .carousel-control-next{
         margin-top: 500px;
-        margin-right: -1px;
+        margin-right: 10px;
     }
     .m--{
         margin-left: 0rem;
